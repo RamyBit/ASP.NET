@@ -7,9 +7,11 @@
 <html>
 <head>
     <title>RsvpForm</title>
+    <link rel="stylesheet" href="~/css/styles.css"/>
 </head>
 <body>
     <form asp-action="RsvpForm" method="post">
+        <div asp-validation-summary="All"></div>
         <div>
             <label asp-for="Name">Your Name:</label>
             <input asp-for="Name" />
