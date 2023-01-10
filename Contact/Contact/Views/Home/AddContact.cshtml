@@ -1,0 +1,22 @@
+﻿@model Contact.Models.AddContactcs
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="m-4">
+    <h1 class="display-4">Add Contact</h1>
+        <form asp-action="AddContact" method="post" class="form-check col-md-6">
+        <label asp-for="FirstName">First Name</label>
+        <input asp-for="FirstName" class="form-control" />
+        <label asp-for="LastName" >Last Name</label>
+        <input asp-for="LastName" class="form-control" />
+        <label asp-for="Email" ></label>
+        <input asp-for="Email" class="form-control" />
+        <label asp-for="Phone" ></label>
+        <input asp-for="Phone" class="form-control" />
+
+    </form>
+
+    </>
+   
+</div>
