@@ -40,7 +40,13 @@
          
         }
 
-      
+        static public double BerechneZSKInEuro(int kuh, int schaf, int zeige, int klein_zeige)
+        {
+            double betrag;
+            betrag = kuh * preisKuh + schaf * preisSchaf + zeige * preisZiege + klein_zeige * preisKleineZiege;
+            return betrag;
+        }
+
 
 
     }
