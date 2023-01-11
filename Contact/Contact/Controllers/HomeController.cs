@@ -17,8 +17,10 @@ namespace Contact.Controllers
         {
             return View();
         }
-        public IActionResult AddContact()
+        public IActionResult AddContact(ContactRes contactRes)
         {
+            Repo.AddContact(contactRes);
+
             return View();
         }
 

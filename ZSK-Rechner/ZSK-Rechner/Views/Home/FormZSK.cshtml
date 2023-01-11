@@ -1,0 +1,26 @@
+﻿@model int[]
+@{
+    ViewData["Title"] = "FormZSK";
+}
+
+<h1>Betrag in ZSK</h1>
+<div class="text-center p-2">
+    <table class="table table-bordered table-sm">
+        <tr>
+            <td>Kuh</td>
+            <td>@Model[0]</td>
+        </tr>
+        <tr>
+            <td>Schaf</td>
+            <td>@Model[1]</td>
+        </tr>
+        <tr>
+            <td>Ziege</td>
+            <td>@Model[2]</td>
+        </tr>
+        <tr>
+            <td>Kleine Ziege</td>
+            <td>@Model[3]</td>
+        </tr>
+    </table>
+</div>

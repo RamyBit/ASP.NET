@@ -1,0 +1,22 @@
+﻿@model ZSK_Rechner.Models.Waehrungsrechner
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Betrag in EURO</h1>
+    
+    <form asp-action="FormEuro" method="post" class="m-2">
+        <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label asp-for="Betrag">Betrag</label>
+            <input asp-for="Betrag" class="form-control" />
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Rechnen</button>
+        </div>
+        
+        
+    </form>
+
+</div>
