@@ -8,13 +8,14 @@
         static int preisZiege = 500;
         static int preisKleineZiege = 50;
 
-        static int preisDorsch = 8;
+        //static int preisDorsch = 8;
 
 
-        //public int BetragInKuh { get; set; }
-        //public int BetragInSchaf { get; set; }
-        //public int BetragInZiege { get; set; }
-        //public int BetragInKZiege { get; set; }
+        public int Kuh { get; set; }
+        public int Schaf { get; set; }
+        public int Ziege { get; set; }
+        public int KleineZiege { get; set; }
+       
         public string Betrag { get; set; }
 
 

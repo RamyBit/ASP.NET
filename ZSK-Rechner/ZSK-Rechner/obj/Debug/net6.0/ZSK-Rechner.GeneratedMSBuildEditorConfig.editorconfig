@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Ramy\Documents\GitHub\ASP.NET\ZSK-Rechner\ZSK-Rechner
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/FormDAHRS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtREFIUlMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/FormEuro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtRXVyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/FormEuroInDAHRS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtRXVyb0luREFIUlMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/FormZSK.cshtml]
@@ -30,6 +38,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/ResultDAHRS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHREQUhSUy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/ResultEuro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHRFdXJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/ResultZSK.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHRaU0suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ramy/Documents/GitHub/ASP.NET/ZSK-Rechner/ZSK-Rechner/Views/Home/ZSKInEuro.cshtml]

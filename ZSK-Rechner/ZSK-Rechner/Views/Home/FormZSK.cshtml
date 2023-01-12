@@ -1,26 +1,33 @@
-﻿@model int[]
+﻿@model ZSK_Rechner.Models.Waehrungsrechner
 @{
-    ViewData["Title"] = "FormZSK";
+    ViewData["Title"] = "Home Page";
 }
 
-<h1>Betrag in ZSK</h1>
-<div class="text-center p-2">
-    <table class="table table-bordered table-sm">
-        <tr>
-            <td>Kuh</td>
-            <td>@Model[0]</td>
-        </tr>
-        <tr>
-            <td>Schaf</td>
-            <td>@Model[1]</td>
-        </tr>
-        <tr>
-            <td>Ziege</td>
-            <td>@Model[2]</td>
-        </tr>
-        <tr>
-            <td>Kleine Ziege</td>
-            <td>@Model[3]</td>
-        </tr>
-    </table>
+<div class="text-center">
+    <h1 class="display-4">Betrag in ZSK</h1>
+
+    <form asp-action="FormZSK" method="post" class="m-2">
+        <div class="form-group">
+            <label asp-for="Kuh">Kuh</label>
+            <input asp-for="Kuh" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Schaf">Schaf</label>
+            <input asp-for="Schaf" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Ziege">Ziege</label>
+            <input asp-for="Ziege" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="KleineZiege">Kleine Ziege</label>
+            <input asp-for="KleineZiege" class=" form-control" />
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Rechnen</button>
+        </div>
+
+
+    </form>
+
 </div>

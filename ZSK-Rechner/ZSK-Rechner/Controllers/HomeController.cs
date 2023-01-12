@@ -26,9 +26,35 @@ namespace ZSK_Rechner.Controllers
         public IActionResult FormEuro(Waehrungsrechner waehrungsrechner)
         {
             int[] ergebniss = Waehrungsrechner.BerechneEuroInZSK(waehrungsrechner.Betrag);
-            return View("FormZSK", ergebniss);
+            return View("ResultZSK", ergebniss);
         }
-
+        [HttpGet]
+        public IActionResult FormZSK()
+        {
+            return View(); 
+        }
+        [HttpPost]
+        public IActionResult FormZSK(Waehrungsrechner waehrungsrechner)
+        {
+            double result = Waehrungsrechner.BerechneZSKInEuro(waehrungsrechner.Kuh, waehrungsrechner.Schaf,
+                                                                waehrungsrechner.Ziege, waehrungsrechner.KleineZiege);
+            return View("ResultEuro", result);
+        }
+        [HttpGet]
+        public IActionResult FormEuroInDAHRS()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult FormEuroInDAHRS(string betrag)
+        {
+            int[] result = DAHRSReschner.EuroInDAHRS(betrag);
+            return View("ResultDAHRS",result);
+        }
+        public IActionResult FormDHRS()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

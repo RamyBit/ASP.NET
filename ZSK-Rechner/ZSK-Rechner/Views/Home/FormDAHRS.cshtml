@@ -1,0 +1,37 @@
+﻿@model ZSK_Rechner.Models.DAHRSReschner
+@{
+    ViewData["Title"] = "FormDAHRS";
+}
+
+<div class="text-center">
+<h1 class="display-4">Betrag in DAHRS</h1>
+
+<form asp-action="FormZSK" method="post" class="m-2">
+    <div class="form-group">
+        <label asp-for="Dorsch">Dorsch</label>
+        <input asp-for="Dorsch" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Aal">Aal</label>
+        <input asp-for="Aal" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Hering">Hering</label>
+        <input asp-for="Hering" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Rochen">Rochen</label>
+        <input asp-for="Rochen" class=" form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Sprotten">Rochen</label>
+        <input asp-for="Sprotten" class=" form-control" />
+     </div>
+    <div>
+        <button type="submit" class="btn btn-primary">Rechnen</button>
+    </div>
+
+
+</form>
+
+</div>
