@@ -55,6 +55,16 @@ namespace ZSK_Rechner.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult ZSKRechnerW()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ZSKRechnerW(string s)
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

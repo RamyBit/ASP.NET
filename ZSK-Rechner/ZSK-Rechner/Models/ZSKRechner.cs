@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using Microsoft.CodeAnalysis.CSharp.Syntax;
+using System.Drawing;
 
 namespace ZSK_Rechner.Models
 {
@@ -14,16 +15,15 @@ namespace ZSK_Rechner.Models
         //private int zeige_menge;
         //private int kleinen_zeigen_menge;
 
-        private static int klein_zeige_preis = 50;
-        private static int zeige_preis = 500;
-        private static int schaf_preis = 650;
-        private static int kuh_preis = 2 * schaf_preis + 3 * zeige_preis;
+        private static int kleinZeigePreis;// = 50;
+        private static int ziegePreis; //= 500;
+        private static int schafPreis; //= 650;
+        private static int kuhPreis; //= 2 * schaf_preis + 3 * zeige_preis;
 
-        private static int kuh_menge = 2;
-        private static int schaf_menge = 4;
-        private static int zeige_menge = 5;
-        private static int kleinen_zeigen_menge = 6;
-
+        private static int kuhMenge; //= 2;
+        private static int schafMenge; //= 4;
+        private static int ziegeMenge; //= 5;
+        private static int kleineZiegeMenge; // = 6;
 
         //public void updatePreis(Preisliste preisliste)
         //{
@@ -34,41 +34,62 @@ namespace ZSK_Rechner.Models
         //    klein_zeige_preis = preis[3].getPreis();
 
         //}
+        public static void SetPreis(string kZPreis,
+                            string zPreis,
+                            string sPreis,
+                            string kPreis)
+        {
+            kleinZeigePreis = Convert.ToInt32(kZPreis);
+            ziegePreis = Convert.ToInt32(zPreis);
+            schafPreis = Convert.ToInt32(sPreis);
+            kuhPreis = Convert.ToInt32(kPreis);
+        }
+
+        public static void SetMenge(string kMenge,
+                                    string sMenge,
+                                    string zMenge,
+                                    string kZMenge)
+        {
+            kuhMenge = Convert.ToInt32(kMenge);
+            schafMenge = Convert.ToInt32(sMenge);
+            ziegeMenge = Convert.ToInt32(zMenge);
+            kleineZiegeMenge = Convert.ToInt32(kZMenge);
+        }
         public static int[] EuroInZSK(double betrag)
         {
             int[] erg = new int[5];
             int substituten = 0;
             double subswert = 0;
-            int kuh = (int)(betrag / kuh_preis);
-            if (kuh > kuh_menge)
+            int kuh = (int)(betrag / kuhPreis);
+            if (kuh > kuhMenge)
             {
-                substituten = kuh - kuh_menge;
-                subswert = (double)(substituten * kuh_preis);
-                kuh = kuh_menge;
+                substituten = kuh - kuhMenge;
+                subswert = (double)(substituten * kuhPreis);
+                kuh = kuhMenge;
             }
-            betrag %= kuh_preis;
+            betrag %= kuhPreis;
             betrag += subswert;
-            int schaf = (int)((betrag) / schaf_preis);
-            if (schaf > schaf_menge)
+            int schaf = (int)((betrag) / schafPreis);
+            if (schaf > schafMenge)
             {
                 substituten = 0;
-                substituten = schaf - schaf_menge;
+                substituten = schaf - schafMenge;
                 subswert = 0;
-                subswert = (double)(substituten * schaf_preis);
+                subswert = (double)(substituten * schafPreis);
             }
-            betrag %= schaf_preis;
+            betrag %= schafPreis;
             betrag += subswert;
-            int zeige = (int)(betrag / zeige_preis);
-            if (schaf > schaf_menge)
+            int zeige = (int)(betrag / ziegePreis);
+            if (schaf > schafMenge)
             {
                 substituten = 0;
-                substituten = zeige - zeige_menge;
+                substituten = zeige - ziegeMenge;
                 subswert = 0;
-                subswert = (double)(substituten * zeige_preis);
+                subswert = (double)(substituten * ziegePreis);
             }
-            betrag %= zeige_preis;
+            betrag %= ziegePreis;
 
-            int klein_zeige = (int)(betrag / klein_zeige_preis);
+            int klein_zeige = (int)(betrag / kleinZeigePreis);
             erg[0] = kuh;
             erg[1] = schaf;
             erg[2] = zeige;
@@ -80,7 +101,7 @@ namespace ZSK_Rechner.Models
         public double ZSKInEuro(int kuh, int schaf, int zeige, int klein_zeige)
         {
             double betrag;
-            betrag = kuh * kuh_preis + schaf * schaf_preis + zeige * zeige_preis + klein_zeige * klein_zeige_preis;
+            betrag = kuh * kuhPreis + schaf * schafPreis + zeige * ziegePreis + klein_zeige * kleinZeigePreis;
             return betrag;
         }
     }
