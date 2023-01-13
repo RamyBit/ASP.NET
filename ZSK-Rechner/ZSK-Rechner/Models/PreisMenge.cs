@@ -2,6 +2,7 @@
 {
     class PreisMenge
     {
+        public string Betrag { get; set; }
         public string? KleinZiegePreis { get; set; }
         public string? ZiegePreis { get; set; }
         public string? SchafPreis { get; set; }

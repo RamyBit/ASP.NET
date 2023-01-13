@@ -35,7 +35,7 @@
             </div>
             <div class="col-6">
                 <h2 class="h2">Tier Preis</h2>
-                <form asp-action="FormZSK" method="post" class="m-6">
+                <form asp-action="ZSKRechnerW" method="post" class="m-6">
                     <div class="form-group">
                         <label asp-for="KuhPreis">Kuh</label>
                         <input asp-for="KuhPreis" class="form-control" />
@@ -57,6 +57,10 @@
                 </form>
             </div>
             <div>
+                <h2 class="h2">Betrag</h2>
+                <form  asp-action="ZSKRechnerW" method="post">
+                    <input asp-action="Betrag" class="form-control-color"/>
+                </form>    
                 <button type="submit" class="btn btn-primary">Rechnen</button>
             </div>
         </div>
