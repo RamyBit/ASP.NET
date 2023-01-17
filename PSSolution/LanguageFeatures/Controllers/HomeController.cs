@@ -11,6 +11,10 @@ namespace LanguageFeatures.Controllers
     {
         public ViewResult Index()
         {
+            bool FilterByPrice(Product p)
+            {
+                return (p?.Price ?? 0) >= 20;
+            }
             //List<string> results = new List<string>();
             //foreach ( Product p in Product.GetProducts())
             //{
@@ -29,9 +33,17 @@ namespace LanguageFeatures.Controllers
                 new Product {Name = "Soccer ball", Price = 19.50M },
                 new Product {Name = "Corner flag", Price = 34.95M}
             };
-            decimal cartTotal = cart.TotalPrices();
-            decimal arrayTotal = productArray.FilterByPrice(20).TotalPrices();
-            return View("Index", new string[] {$"Array Total:{arrayTotal:C2}"});
+
+            Func<Product, bool> nameFilter = delegate (Product prod)
+            {
+                return prod?.Name?[0] == 'S';
+            };
+
+            decimal priceFilterTotal = productArray.Filter(FilterByPrice).TotalPrices();
+            decimal nameFilterTotal = productArray.Filter(nameFilter).TotalPrices();
+            
+            return View("Index", new string[] {$"Price Total:{priceFilterTotal:C2}",
+                                                $"Name Total: {nameFilterTotal:C2}"});
         }
     }
 }
