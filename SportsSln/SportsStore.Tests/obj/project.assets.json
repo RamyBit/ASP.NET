@@ -7926,11 +7926,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
+      "projectUniqueName": "D:\\GitHub\\PrivateCoding\\ASP.NET\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
       "projectName": "SportsStore.Tests",
-      "projectPath": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
+      "projectPath": "D:\\GitHub\\PrivateCoding\\ASP.NET\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
       "packagesPath": "C:\\Users\\Ramy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\SportsSln\\SportsStore.Tests\\obj\\",
+      "outputPath": "D:\\GitHub\\PrivateCoding\\ASP.NET\\SportsSln\\SportsStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7951,8 +7951,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\SportsSln\\SportsStore\\SportsStore.csproj": {
-              "projectPath": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\SportsSln\\SportsStore\\SportsStore.csproj"
+            "D:\\GitHub\\PrivateCoding\\ASP.NET\\SportsSln\\SportsStore\\SportsStore.csproj": {
+              "projectPath": "D:\\GitHub\\PrivateCoding\\ASP.NET\\SportsSln\\SportsStore\\SportsStore.csproj"
             }
           }
         }
