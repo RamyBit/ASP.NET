@@ -4965,11 +4965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\SportsSln\\SportsStore\\SportsStore.csproj",
+      "projectUniqueName": "D:\\GitHub\\PrivateCoding\\ASP.NET\\SportsSln\\SportsStore\\SportsStore.csproj",
       "projectName": "SportsStore",
-      "projectPath": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\SportsSln\\SportsStore\\SportsStore.csproj",
+      "projectPath": "D:\\GitHub\\PrivateCoding\\ASP.NET\\SportsSln\\SportsStore\\SportsStore.csproj",
       "packagesPath": "C:\\Users\\Ramy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\SportsSln\\SportsStore\\obj\\",
+      "outputPath": "D:\\GitHub\\PrivateCoding\\ASP.NET\\SportsSln\\SportsStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
