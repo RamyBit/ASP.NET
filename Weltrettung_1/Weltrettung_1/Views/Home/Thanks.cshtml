@@ -1,0 +1,20 @@
+﻿@model Weltrettung_1.Models.HeroResponse
+@{
+    ViewData["Title"] = "Thanks";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Thanks</h1>
+    <div>
+        <h1>Super! Danke @Model.Vorname @Model.Nachname</h1>
+        @if (Model.erwachsner == true)
+        {
+            @: Sie sind ein(e) Held(in)
+        }
+        else
+        {
+            @: Du bist ein(e) Held(in)
+        }
+    </div>
+    <div>Hier<a asp-action="ListResponses"> Drücken</a> um andere Helden zu schauen.</div>
+</div>

@@ -1,0 +1,26 @@
+﻿@model Weltrettung_1.Models.Danger
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Form</h1>
+    <form asp-action="BedrohungForm" method="post">
+        <div class="form-group">
+            <label asp-for="BedrohungsId">BedrohungsId</label>
+            <input asp-for="BedrohungsId" class="form-control" />
+        </div>
+        <div>
+            <label asp-for="Bedrohungsname">Bedrohungsname</label>
+            <input asp-for="Bedrohungsname" class="form-control" />
+        </div>
+        
+            <label>Bedrohung Existiert</label>
+            <select asp-for="Existiert" class="form-control">
+                <option value="true">Ja</option>
+                <option value="false">Nein</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">absenden</button>
+    </form>
+</div>

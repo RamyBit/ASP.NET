@@ -1,0 +1,34 @@
+﻿@model Weltrettung_1.Models.HeroResponse
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Form</h1>
+    <form asp-action="Form" method="post">
+        <div class="form-group">
+            <label asp-for="Vorname" >Vorname</label>
+            <input asp-for="Vorname" class="form-control" />
+        </div>
+        <div>
+            <label asp-for="Nachname">Nachname</label>
+            <input asp-for="Nachname" class="form-control" />
+        </div>
+        <div>
+            <label asp-for="Email">E-Mail</label>
+            <input asp-for="Email"class="form-control" />
+        </div>
+        <div>
+            <label asp-for="Feahigkeit">Fähigkeit</label>
+            <input asp-for="Feahigkeit"class="form-control" />
+        </div>
+        <div>
+            <label>über 18-te Lebensjahr</label>
+            <select asp-for="erwachsner" class="form-control">
+                <option value="true">Ja</option>
+                <option value="false">Nein</option>
+            </select>
+        </div>
+        <button type="submit">absenden</button>
+    </form>
+</div>

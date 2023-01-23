@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Weltrettung_1.Models.HeroResponse>
+@{
+    ViewData["Title"] = "Hero Responses";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hero Responses</h1>
+    <h2>Folgende List von die Personen, die der Welt retten wollen.</h2>
+    <table>
+        <thead>
+            <tr><th>Vorname</th><th>Nachname</th><th>E-Mail</th><th>Fähigkeit</th></tr>
+        </thead>
+        <tbody>
+            @foreach(Weltrettung_1.Models.HeroResponse r in Model)
+            {
+                <tr>
+                    <td>@r.Vorname</td>
+                    <td>@r.Nachname</td>
+                    <td>@r.Email</td>
+                    <td>@r.Feahigkeit</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
