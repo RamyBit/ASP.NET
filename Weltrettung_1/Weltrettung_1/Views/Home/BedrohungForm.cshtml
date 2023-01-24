@@ -1,10 +1,10 @@
-﻿@model Weltrettung_1.Models.Danger
+﻿@model Weltrettung_1.Models.Response
 @{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Form</h1>
+    <h1 class="display-4">Bedrohung</h1>
     <form asp-action="BedrohungForm" method="post">
         <div class="form-group">
             <label asp-for="BedrohungsId">BedrohungsId</label>
@@ -14,7 +14,7 @@
             <label asp-for="Bedrohungsname">Bedrohungsname</label>
             <input asp-for="Bedrohungsname" class="form-control" />
         </div>
-        
+        <div>
             <label>Bedrohung Existiert</label>
             <select asp-for="Existiert" class="form-control">
                 <option value="true">Ja</option>

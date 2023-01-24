@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Weltrettung_1.Models;
 
 namespace Weltrettung_1
 {
@@ -21,9 +23,15 @@ namespace Weltrettung_1
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+       
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<WeltContext>(opts => {
+                opts.UseSqlServer(
+                    Configuration["ConnectionStrings:WeltConnection"]);
+            });
+            services.AddScoped<IWeltRepository, EFWeltRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

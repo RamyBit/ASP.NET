@@ -1,0 +1,29 @@
+﻿@model Weltrettung_1.Models.Response
+@{
+    ViewData["Title"] = "Aggressor";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Aggressor</h1>
+    <form asp-action="AggressorForm" method="post">
+
+        <div>
+            <label asp-for="Aggressor_id">Aggressonr_id</label>
+            <input asp-for="Aggressor_id" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Vorname">Vorname</label>
+            <input asp-for="Vorname" class="form-control" />
+        </div>
+        <div>
+            <label asp-for="Nachname">Nachname</label>
+            <input asp-for="Nachname" class="form-control" />
+        </div>
+        <div>
+            <label asp-for="Spezialgebiet">Spezialgebiet</label>
+            <input asp-for="Spezialgebiet" class="form-control" />
+        </div>
+
+        <button type="submit">absenden</button>
+    </form>
+</div>

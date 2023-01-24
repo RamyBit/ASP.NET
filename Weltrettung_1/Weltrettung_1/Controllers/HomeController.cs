@@ -12,7 +12,8 @@ namespace Weltrettung_1.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        private IWeltRepository repository;
+         
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -28,10 +29,9 @@ namespace Weltrettung_1.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Form(HeroResponse heroResponse)
+        public IActionResult Form(Response res)
         {
-            Repository.AddResponse(heroResponse);
-            return View("Thanks",heroResponse);
+            Repository.AddHero(context, res);
         }
         [HttpGet]
         public IActionResult BedrohungForm()
@@ -41,6 +41,17 @@ namespace Weltrettung_1.Controllers
         [HttpPost]
         public IActionResult BedrohungForm(Danger danger)
         {
+            return View();
+        }
+        [HttpGet]
+        public IActionResult AggressorForm()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AggressorForm(AntiHeroResponse antiHeroResponse)
+        {
+
             return View();
         }
         public IActionResult ListResponses()

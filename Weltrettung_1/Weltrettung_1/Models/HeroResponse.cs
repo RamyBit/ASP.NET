@@ -7,6 +7,7 @@ namespace Weltrettung_1.Models
 {
     public class HeroResponse
     {
+        public int Held_id { get; set; }
         public string Vorname { get; set; }
         public string Nachname { get; set; }
         public string Email { get; set; }
