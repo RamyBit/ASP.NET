@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Gebraucht_und_Gut.props" />
+</Project>

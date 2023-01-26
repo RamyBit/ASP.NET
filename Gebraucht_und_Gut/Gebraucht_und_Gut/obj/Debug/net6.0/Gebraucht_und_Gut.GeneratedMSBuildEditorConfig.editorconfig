@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Gebraucht_und_Gut
+build_property.RootNamespace = Gebraucht_und_Gut
+build_property.ProjectDir = C:\Users\Ramy\Documents\GitHub\ASP.NET\Gebraucht_und_Gut\Gebraucht_und_Gut\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ramy\Documents\GitHub\ASP.NET\Gebraucht_und_Gut\Gebraucht_und_Gut
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Fahrzeugs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFocnpldWdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Fahrzeugs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFocnpldWdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Fahrzeugs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFocnpldWdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Fahrzeugs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFocnpldWdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Fahrzeugs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFocnpldWdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Kundes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Kundes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Kundes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Kundes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Kundes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Rechnungs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaG51bmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Rechnungs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaG51bmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Rechnungs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaG51bmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Rechnungs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaG51bmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Rechnungs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjaG51bmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Verkaeufers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVya2FldWZlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Verkaeufers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVya2FldWZlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Verkaeufers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVya2FldWZlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Verkaeufers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVya2FldWZlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Verkaeufers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVya2FldWZlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/Gebraucht_und_Gut/Gebraucht_und_Gut/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x9q87qpeig

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Pirat_Vertreter_Besuch_ASP.props" />
+</Project>

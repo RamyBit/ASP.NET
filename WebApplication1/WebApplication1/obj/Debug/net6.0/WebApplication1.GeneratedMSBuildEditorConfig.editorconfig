@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication1
+build_property.RootNamespace = WebApplication1
+build_property.ProjectDir = C:\Users\Ramy\Documents\GitHub\ASP.NET\WebApplication1\WebApplication1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ramy\Documents\GitHub\ASP.NET\WebApplication1\WebApplication1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Besuches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVzdWNoZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Besuches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVzdWNoZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Besuches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVzdWNoZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Besuches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVzdWNoZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Besuches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVzdWNoZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Consultants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Consultants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Consultants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Consultants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Consultants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGFudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Gebiets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2ViaWV0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Gebiets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2ViaWV0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Gebiets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2ViaWV0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Gebiets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2ViaWV0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Gebiets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2ViaWV0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Kundes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Kundes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Kundes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Kundes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Kundes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VuZGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ramy/Documents/GitHub/ASP.NET/WebApplication1/WebApplication1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bddmc6yalx

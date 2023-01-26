@@ -29,7 +29,7 @@ namespace WR3_1
             services.AddMvc();
 
             var connection = @"(localdb)\\mssqllocaldb; Database = Weltenretter; Trusted_Connection = True;";
-
+            services.AddDbContext<WeltenretterContext>()
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

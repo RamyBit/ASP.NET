@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Gebraucht_und_Gut.props" />
+</Project>

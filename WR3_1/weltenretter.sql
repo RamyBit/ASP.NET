@@ -23,7 +23,7 @@
 --	held_id integer,
 --	aggressor_id integer,
 --	constraint pk_bedrohung primary key (bedrohung_id),
---	constraint fk_bedrohung_held foreign key (held_id) references Held (held_id),
+--	constraint fk_bedrohung_held foreign key (held_id) references Held (held_id) on delete cascade on update cascade,
 --	constraint fk_bedrohung_aggressor foreign key (aggressor_id) references Aggressor (aggressor_id)	
 --)
 
