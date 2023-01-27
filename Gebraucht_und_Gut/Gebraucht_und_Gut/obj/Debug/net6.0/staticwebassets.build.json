@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JmBDMVk+/XyYan7ebJEySuVFudIYxz3KBNrj21eYVA8=",
+  "Hash": "ajYJ7SrtyNegXu8qet0lpYOq65ZOnWQYMkMvrU4whN4=",
   "Source": "Gebraucht_und_Gut",
   "BasePath": "_content/Gebraucht_und_Gut",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Gebraucht_und_Gut.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\css\\sidebars.css",
+      "SourceId": "Gebraucht_und_Gut",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\",
+      "BasePath": "_content/Gebraucht_und_Gut",
+      "RelativePath": "css/sidebars.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sidebars.css"
+    },
+    {
       "Identity": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\css\\site.css",
       "SourceId": "Gebraucht_und_Gut",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\js\\sidebars.js",
+      "SourceId": "Gebraucht_und_Gut",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\",
+      "BasePath": "_content/Gebraucht_und_Gut",
+      "RelativePath": "js/sidebars.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\sidebars.js"
     },
     {
       "Identity": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\js\\site.js",

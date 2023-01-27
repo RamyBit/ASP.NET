@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weltenretter", "Weltenretter\Weltenretter.csproj", "{C18A7293-CC08-4F9D-A0D5-E33464A7F917}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C18A7293-CC08-4F9D-A0D5-E33464A7F917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18A7293-CC08-4F9D-A0D5-E33464A7F917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18A7293-CC08-4F9D-A0D5-E33464A7F917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18A7293-CC08-4F9D-A0D5-E33464A7F917}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9941EA9-85E5-4581-9ADB-20A27F231D1E}
+	EndGlobalSection
+EndGlobal

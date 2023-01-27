@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Gebraucht_und_Gut.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\css\\sidebars.css",
+      "PackagePath": "staticwebassets\\css\\sidebars.css"
+    },
+    {
       "Id": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\js\\sidebars.js",
+      "PackagePath": "staticwebassets\\js\\sidebars.js"
     },
     {
       "Id": "C:\\Users\\Ramy\\Documents\\GitHub\\ASP.NET\\Gebraucht_und_Gut\\Gebraucht_und_Gut\\wwwroot\\js\\site.js",

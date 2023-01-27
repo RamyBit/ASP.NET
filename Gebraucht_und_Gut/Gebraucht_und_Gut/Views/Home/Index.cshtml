@@ -2,7 +2,65 @@
     ViewData["Title"] = "Home Page";
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Gebraucht und Gut</h1>
+</div>
+
+
+<div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap" /></svg>
+        <span class="fs-5 fw-semibold">Menü</span>
+    </a>
+    <ul class="list-unstyled ps-0">
+        <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                Fahrzeug
+            </button>
+            <div class="collapse" id="home-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/Fahrzeugs/index" class="link-dark rounded">Fahrzeug Liste</a></li>
+                    <li><a href="/Fahrzeugs/create" class="link-dark rounded">Fahrzeug erstellen</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                Verkäufer
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/Verkaeufers/Index" class="link-dark rounded">Verkäufer Liste</a></li>
+                    <li><a href="/Verkaeufers/Create" class="link-dark rounded">Verkäufer erstellen</a></li>
+                   
+                </ul>
+            </div>
+        </li>
+        <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                Kunde
+            </button>
+            <div class="collapse" id="orders-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/Kundes/index" class="link-dark rounded">Kunde Liste</a></li>
+                    <li><a href="/Kundes/create" class="link-dark rounded">Kunde erstellen</a></li>
+                    
+                </ul>
+            </div>
+        </li>
+        <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#rechnung-collapse" aria-expanded="false">
+                Rechnung
+            </button>
+            <div class="collapse" id="rechnung-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="/Rechnungs/index" class="link-dark rounded">Rechnung Liste</a></li>
+                    <li><a href="/Rechnungs/create" class="link-dark rounded">Rechnung erstellen</a></li>
+
+                </ul>
+            </div>
+        </li>
+       
+    </ul>
 </div>
